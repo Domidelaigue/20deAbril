@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="VALPARAÍSO">
+    <meta name="author" content="DOMINIQUE">
+    <title>Valparaíso</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="estilo.css" rel="stylesheet">
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Valparaíso</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#primera">Economía</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#segunda">Demografía</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#tercera">Salud</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col text-center">
+          	<h1>VALPARAÍSO</h1>
+          	<h2>La joya del pacífico</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="primera">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-6 pt-2">
+            
+            
+               <svg width="360" height="360" style="background:#ffffff
+                                                ;">
+          <g>
+            <circle r="30" cx="180" cy="40"/>
+            <text x="178" y="40" fill="#ED3D88"></text>
+            <circle r="30" cx="180" cy="100"/>
+            <text x="178" y="100" fill="#ED3D88"></text>
+            <circle r="30" cx="180" cy="180"/>
+            <text x="178" y="180" fill="#ED3D88"></text>
+            <circle r="30" cx="180" cy="280"/>
+            <text x="178" y="280" fill="#ED3D88"></text>
+          </g>
+        </svg>
+            </div>    
+            
+ 
+          <div class="col-lg-6">
+          	<h3 class="mt-3">ECONOMÍA</h3>
+            <p>INDUSTRIA</p>
+          	<p>En 2014, Valparaiso generó una producción total de $ 7,1 billones. La productividad laboral basada en producción industrial en Valparaiso fue de $ 27,6 millones pesos anuales por empleado.</p>
+            <p>Las principales industrias de Valparaiso son Transporte y almacenamiento, Industrias manufactureras y Comercio al por mayor y al por menor; reparación de vehículos automotores y motocicletas.</p>
+            <p>Las ocupaciones más comunes en Valparaiso, según el número de trabajadores, son Trabajadores no calificados, Trabajadores de los servicios y vendedores de comercios y mercados y Profesionales científicos e intelectuales.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="segunda" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="mt-3">DEMOGRAFÍA</h3>
+            <p>POBLACIÓN</p>
+            <p>Para el año 2018 la población de Valparaiso, según estimaciones del INE, es 260.373 personas. La proyección poblacional para el año 2020 es +253.877 personas.</p>
+            <p></p>
+          </div>
+          <div class="col-lg-6 text-right dataviz-segunda"></div>
+        </div>
+      </div>
+    </section>
+    <section id="tercera">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 dataviz-tercera"></div>
+          <div class="col-lg-6">
+            <h3 class="mt-3">SALUD</h3>
+            <p>CAUSAS DE MUERTE</p>
+              <p>En el período 2010 - 2014, la causa de muerte con la tasa de crecimiento anual más alta en Valparaíso fueron Enfermedades del sistema respiratorio con un 2,4 %, seguido de Tumores (neoplasias) con 1,6 %.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+      	<div class="row">
+      		<div class="col">
+		        <p class="small">Desarrollado por <a href="mishu.delaigue@gmail.com">Dominique Delaigue</a> | Seminario Gráfica Computacional I 2018, Primer Semestre</p>
+		        <ul class="list-inline small">
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#primera">ECONOMÍA</a>
+		          </li>
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#segunda">DEMOGRAFÍA</a>
+		          </li>
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#tercera">SALUD</a>
+		          </li>
+		        </ul>
+      		</div>
+      	</div>
+      </div>
+    </footer>
+
+    <!-- Javascript de visualizaciones-->
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="d3/primera.js"></script>
+	<script src="d3/segunda.js"></script>
+	<script src="d3/tercera.js"></script>
+    <!-- Javascript de Bootstrap -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/menu.js"></script>
+  </body>
+
+</html>
